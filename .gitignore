@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+
+# Dependency directories
+# If you're using Poetry, replace 'venv/' with 'poetry.lock' and 'pyproject.toml'
+# If you're using pip, replace 'venv/' with 'requirements.txt'
+# If you're using conda, replace 'venv/' with 'environment.yml'
+# Adjust based on your dependency management tool
+venv/
