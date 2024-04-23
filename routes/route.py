@@ -1,5 +1,5 @@
 from bson import ObjectId
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Header, Request
 from fastapi.encoders import jsonable_encoder
 from config.database import collection_name
 from models.students import Student, UpdateStudent
@@ -53,6 +53,12 @@ async def delete_student(id: str):
     if result is None:
         raise HTTPException(status_code=404, detail="Student not found")
     return {}
+
+
+
+    
+
+
     
 
     
